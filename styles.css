@@ -136,7 +136,7 @@ nav a:hover:after {
 
 .headline span {
     color: var(--brand-primary-color);
-    font-family: 'Old Standard TT', sans-serif;
+    font-family: 'Old Standard TT', serif;
 }
 
 .first-headline {
@@ -168,7 +168,7 @@ strong {
     box-sizing: inherit;
     color: var(--text-dark-color);
     display: block;
-    font-family: 'Old Standard TT', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 3rem;
     margin: 3rem 0 0 1.7rem;
 }
