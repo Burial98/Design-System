@@ -134,7 +134,7 @@ nav a:hover:after {
     
 }
 
-.headline span {
+.headline span > * {
     color: var(--brand-primary-color);
     font-family: 'Old Standard TT', serif;
 }
