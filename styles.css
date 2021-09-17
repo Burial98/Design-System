@@ -1,10 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Work+Sans:wght@200;300;400&display=swap');
+/* Fonts */
+@font-face {
+    font-family: 'Abygaer';
+    src: url(Fonts/Abygaer\ Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Area';
+    src: url(Fonts/AreaTrial-Hairline.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Area';
+    src: url(Fonts/AreaTrial-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Area';
+    src: url(Fonts/AreaTrial-Semibold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(Fonts/RobotoMono-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(Fonts/Lora-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(Fonts/Raleway-VariableFont_wght.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(Fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+
 
 /* Basic Styles */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Area', sans-serif;
     font-weight: 400;
     color: var(--text-dark-color);
     z-index: 1;
@@ -46,7 +95,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1.375rem;
+    margin: 0 1rem;
     padding: 0.25rem;
     height: 2rem;
 }
@@ -54,7 +103,7 @@ nav li {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Area', sans-serif;
     font-weight: 200;
     letter-spacing: 2px;
     position: relative;
@@ -82,14 +131,14 @@ nav a:hover:after {
 }
 
 /* Intro Styles */
-
 #intro {
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .headline h1 {
-    font-family: 'Old Standard TT', sans-serif;
+    font-family: 'Abygaer', sans-serif;
+    font-style: italic;
     font-size: 20vmin;
     text-transform: uppercase;
     justify-content: center;
@@ -138,7 +187,8 @@ nav a:hover:after {
 
 .headline span {
     color: var(--brand-primary-color);
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Abygaer', serif;
+    font-style: normal;
 }
 
 .first-headline {
@@ -156,8 +206,8 @@ p {
 }
 
 strong {
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* Color Styles */
@@ -170,18 +220,19 @@ strong {
     box-sizing: inherit;
     color: var(--text-dark-color);
     display: block;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Abygaer', serif;
     font-size: 3rem;
-    margin: 3rem 0 0 1.7rem;
+    margin: 3rem 0 0 1.9rem;
 }
 
 .monochrome {
     box-sizing: inherit;
     color: var(--text-dark-color);
     display: block;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Area', sans-serif;
+    font-weight: 600;
     font-size: 1.5rem;
-    margin: 3rem 0 0 1.7rem;
+    margin: 3rem 0 -.5rem 1.9rem;
 }
 
 /* Monochrome Color */
@@ -292,4 +343,316 @@ strong {
 
 .list > * {
     margin: 4rem -2rem 0 0;
+}
+
+/* Complementary Color */
+.front-five {
+    background-color: #BA636D;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-five{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-six {
+    background-color: #82343D;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-six{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-seven {
+    background-color: #047D6F;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-seven{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-eight {
+    background-color: #49B3A6;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-eight{
+    transform: translateY(-35%) scale(.8);
+}
+
+/* Analogous Color */
+.front-nine {
+    background-color: #6B8A08;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-nine{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-ten {
+    background-color: #D7A009;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-ten{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-eleven {
+    background-color: #CDA565;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-eleven{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-twelve {
+    background-color: #E8CB61;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-twelve{
+    transform: translateY(-35%) scale(.8);
+}
+
+/* Triadic Color */
+.front-thirteen {
+    background-color: #276B43;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-thirteen{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-fourteen {
+    background-color: #5C2C9E;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-fourteen{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-fivteen {
+    background-color: #FC954C;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-fivteen{
+    transform: translateY(-35%) scale(.8);
+}
+
+.front-sixteen {
+    background-color: #8A7F78;
+    height: 9em;
+    width: 8em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: 2.25rem;
+    transition: 250ms;
+}
+
+.game:hover .front-sixteen{
+    transform: translateY(-35%) scale(.8);
+}
+
+/* Typography Section */
+#typography {
+    max-width: 1000px;
+    margin: 7rem auto 0 auto;
+}
+
+.banner-two {
+    display: flex;
+    background-color: var(--brand-primary-color);
+    height: 0.5rem;
+    width: 4rem;
+    margin: 6rem 0 -2rem 2rem;
+}
+
+/* Modern */
+
+.game-two {
+    position: relative;
+    width: 12.5em;
+}
+
+.front-typo {
+    background-color: #636159;
+    height: 12em;
+    width: 20em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: -3.73rem;
+    transition: 250ms;
+}
+
+.back-typo {
+    opacity: 0;
+    position: absolute;
+    margin-left: -2.3rem;
+    bottom: 0rem;
+    background-color: none;
+    transition: 250ms cubic-bezier(.21, 1, .81, 1), opacity 100ms linear;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Area', sans-serif;
+    font-weight: 400;
+}
+
+.third-typo {
+    font-size: 10px;
+    color: var(--text-dark-color);
+    text-transform: uppercase;
+    font-family: 'Area', sans-serif;
+    font-weight: 200;
+}
+
+.typo-stat-first p {
+    background-color:lightgray;
+    text-align: left;
+    margin-top: 10rem;
+}
+
+.typo-stat-second p {
+    background-color:lightgray;
+    text-align: left;
+}
+
+.background-typo {
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(.2, 1);
+    opacity: 0;
+    z-index: -1;
+    transition: 250ms cubic-bezier(.21, 1, .81, 1), opacity 100ms linear;
+    border-radius: var(--br);
+}
+
+.game-two:hover .front-typo{
+    transform: translateY(-35%) scale(.8);
+}
+
+.game-two:hover .back-typo{
+    opacity: 1;
+    transform: scale(1.4);
+    }
+
+.game-two:hover .background-typo{
+    transform: scale(1.5, 1.3);
+    opacity: 1;
+    }
+
+.list-typo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-typo > * {
+    margin: 3rem 4rem 1rem 5.5rem;
+}
+
+/* Modern One */
+.first-typo {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo {
+    font-family: 'Lora', serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Modern Two */
+.first-typo-two {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-two {
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
 }
