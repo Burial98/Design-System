@@ -24,8 +24,8 @@
 }
 
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url(Fonts/RobotoMono-VariableFont_wght.ttf);
+    font-family: 'Dosis';
+    src: url(Fonts/Dosis-VariableFont_wght.ttf);
     font-weight: 700;
 }
 
@@ -44,6 +44,84 @@
 @font-face {
     font-family: 'Open Sans';
     src: url(Fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url(Fonts/OldStandardTT-Italic.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(Fonts/Rubik-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url(Fonts/GoudyBookletter1911-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Average Sans';
+    src: url(Fonts/AverageSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Chivo';
+    src: url(Fonts/Chivo-Light.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Monda';
+    src: url(Fonts/Monda-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(Fonts/WorkSans-VariableFont_wght.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(Fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(Fonts/SourceSansPro-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url(Fonts/PermanentMarker-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url(Fonts/Overpass-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roses Bolero';
+    src: url(Fonts/Roses\ Bolero\ Demo\ Free.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gyahegi';
+    src: url(Fonts/GyahegiPersonalUse-w1P6z.ttf);
     font-weight: 400;
 }
 
@@ -95,7 +173,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1rem;
+    margin: 0 .8rem;
     padding: 0.25rem;
     height: 2rem;
 }
@@ -201,7 +279,7 @@ nav a:hover:after {
 
 p {
     margin: 2rem 2rem 0 2rem;
-    line-height: 1.4;
+    line-height: 1.5;
     max-width: 40rem;
 }
 
@@ -619,7 +697,7 @@ strong {
 
 /* Modern One */
 .first-typo {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: white;
@@ -656,3 +734,232 @@ strong {
     margin-top: 0.7em;
     padding-left: 0em;
 }
+
+/* Classical One */
+.first-typo-three {
+    font-family: 'Old Standard TT', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-three {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Classical Two */
+.first-typo-four {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-four {
+    font-family: 'Average Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Minimal One */
+.first-typo-five {
+    font-family: 'Chivo', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-five {
+    font-family: 'Monda', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Minimal Two */
+.first-typo-six {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-six {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Striking One */
+.first-typo-seven {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-seven {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Striking Two */
+.first-typo-eight {
+    font-family: 'Permanent Marker', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-top: 1.1em;
+    padding-left: 0em;
+}
+
+.second-typo-eight {
+    font-family: 'Overpass', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    margin-top: 0.7em;
+    padding-left: 0em;
+}
+
+/* Image one */
+
+#images {
+    max-width: 1000px;
+    margin: 7rem auto 0 auto;
+}
+
+.game-three {
+    position: relative;
+    width: 12.5em;
+}
+
+img {
+    max-width: 100%;
+    border-radius: var(--br);
+}
+
+.front-image {
+    height: 12em;
+    width: 20em;
+    border-radius: var(--br);
+    z-index: 3;
+    margin-left: -3.73rem;
+    transition: 250ms;
+}
+
+.back-image {
+    opacity: 0;
+    position: absolute;
+    margin-left: 1.5rem;
+    bottom: 3rem;
+    background-color: none;
+    transition: 250ms cubic-bezier(.21, 1, .81, 1), opacity 100ms linear;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.third-image {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Abygaer', sans-serif;
+    font-weight: 400;
+}
+
+.game-three:hover .front-image{
+    transform: translateY(-15%) scale(1);
+}
+
+.game-three:hover .back-image{
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+/* Image Two */
+.back-image-two {
+    opacity: 0;
+    position: absolute;
+    margin-left: 1.3rem;
+    bottom: 4.2rem;
+    background-color: none;
+    transition: 250ms cubic-bezier(.21, 1, .81, 1), opacity 100ms linear;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.third-image-two {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gyahegi', sans-serif;
+    font-weight: 400;
+}
+.game-three:hover .back-image-two{
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+.list-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-image > * {
+    margin: 4rem 4rem 1rem 5.5rem;
+}
+
+/* Footer */
+footer {
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    font-family: 'Area', sans-serif;
+    text-decoration: none;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+footer a {
+    color: black;
+}
+
+
+
+
